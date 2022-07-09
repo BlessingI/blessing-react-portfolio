@@ -28,7 +28,10 @@ function App() {
   return (
     <div>
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <main>
       {renderPage()}
+      </main>
+      
     </div>
   );
 }
