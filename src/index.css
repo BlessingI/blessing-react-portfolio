@@ -303,3 +303,13 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+.fontawesome {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.fontawesome a{
+  color: #fafafa;
+}

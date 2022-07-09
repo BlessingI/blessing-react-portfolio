@@ -5,6 +5,7 @@ import About from "./components/About";
 import ContactForm from "./components/ContactForm";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -30,8 +31,8 @@ function App() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       <main>
       {renderPage()}
+      <Footer />
       </main>
-      
     </div>
   );
 }
