@@ -38,6 +38,7 @@ function ContactForm() {
   return (
     <section>
       <h1>Contact me</h1>
+      <br />
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -48,6 +49,7 @@ function ContactForm() {
             name="name"
           />
         </div>
+        <br />
         <div>
           <label htmlFor="email">Email address:</label>
           <input
@@ -57,6 +59,7 @@ function ContactForm() {
             onChange={handleChange}
           />
         </div>
+        <br />
         <div>
           <label htmlFor="message">Message:</label>
           <textarea
@@ -66,6 +69,7 @@ function ContactForm() {
             rows="5"
           />
         </div>
+        <br />
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
