@@ -1,34 +1,34 @@
 import React, { useState } from "react";
 import Nav from "./components/Nav";
 import About from "./components/About";
-import Gallery from "./components/Gallery";
-import ContactForm from "./components/Contact";
+// import Gallery from "./components/Gallery";
+import ContactForm from "./components/ContactForm";
+import Resume from "./components/Resume";
+import Portfolio from "./components/Portfolio";
 
 function App() {
-  const [categories] = useState([
-    {
-      name: "About",
-      description: "About Me",
-    },
-    { name: "Portfolio", description: "lo Portfolio" },
-    { name: "Contact", description: "da Contact" },
-    {
-      name: "Resume",
-      description: "the Resume",
-    },
-  ]);
+  const [currentPage, setCurrentPage] = useState("About");
 
-  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+  const renderPage = () => {
+    if (currentPage === "About") {
+      return <About />;
+    }
+    if (currentPage === "ContactForm") {
+      return <ContactForm />;
+    }
+    if (currentPage === "Resume") {
+      return <Resume />;
+    }
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
+    }
+  };
+
+  const handlePageChange = (page) => setCurrentPage(page);
   return (
     <div>
-      <Nav
-        categories={categories}
-        setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory}
-      ></Nav>
-      <ContactForm></ContactForm>
-      <Gallery currentCategory={currentCategory}></Gallery>
-      <About></About>
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
     </div>
   );
 }
