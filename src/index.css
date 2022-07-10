@@ -300,8 +300,8 @@ a {
 	
 }
 
-.navActive {
-  color: var(--secondary);
+.active {
+  background-color: #213a5d;
 }
 
 .fontawesome {
