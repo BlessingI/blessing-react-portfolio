@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/blessing-react-portfolio/static/css/main.962f5bda.css",
+    "main.css": "/blessing-react-portfolio/static/css/main.18a2a0bf.css",
     "main.js": "/blessing-react-portfolio/static/js/main.0d7688e3.js",
     "static/js/787.ceeab0d8.chunk.js": "/blessing-react-portfolio/static/js/787.ceeab0d8.chunk.js",
     "static/media/BlessingPassport.GIF": "/blessing-react-portfolio/static/media/BlessingPassport.246a62732a78492dcd89.GIF",
@@ -12,12 +12,12 @@
     "static/media/3.jpg": "/blessing-react-portfolio/static/media/3.38b4004c22d32328b4db.jpg",
     "static/media/4.jpg": "/blessing-react-portfolio/static/media/4.d92bdaf8018552193b7d.jpg",
     "index.html": "/blessing-react-portfolio/index.html",
-    "main.962f5bda.css.map": "/blessing-react-portfolio/static/css/main.962f5bda.css.map",
+    "main.18a2a0bf.css.map": "/blessing-react-portfolio/static/css/main.18a2a0bf.css.map",
     "main.0d7688e3.js.map": "/blessing-react-portfolio/static/js/main.0d7688e3.js.map",
     "787.ceeab0d8.chunk.js.map": "/blessing-react-portfolio/static/js/787.ceeab0d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.962f5bda.css",
+    "static/css/main.18a2a0bf.css",
     "static/js/main.0d7688e3.js"
   ]
 }
