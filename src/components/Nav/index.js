@@ -3,11 +3,7 @@ function Nav({ currentPage, handlePageChange }) {
   return (
     <header className="flex-row px-1">
       <h2 className="mx-2 mx-9">
-        <a
-          href="/"
-        >
-          Blessing I
-        </a>
+          Blessing
       </h2>
 
       <nav>
