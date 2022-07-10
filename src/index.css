@@ -87,7 +87,7 @@ a {
 
 a:hover {
   text-decoration: underline;
-  color: #213a5d;
+  /* color: #213a5d; */
 }
 
 header {
@@ -155,7 +155,6 @@ li {
 
 nav a:hover {
   text-decoration: none;
-  color: #213a5d;
 }
 
 nav  li {
