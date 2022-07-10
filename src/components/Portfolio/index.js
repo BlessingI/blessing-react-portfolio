@@ -8,19 +8,52 @@ import Photo5 from "../../assets/images/small/landscape/5.jpg";
 
 function Portfolio() {
   const imagesPool = [
-    { src: Photo0, text: "first project" },
-    { src: Photo1, text: "second project" },
-    { src: Photo2, text: "second project" },
-    { src: Photo3, text: "second project" },
-    { src: Photo4, text: "second project" },
-    { src: Photo5, text: "second project" },
+    {
+      src: Photo0,
+      text: "Blessing Igbadumhe's Blog",
+      href: "https://blessing-igbadumhe-blog.herokuapp.com/",
+    },
+    {
+      src: Photo1,
+      text: "The Occasional Movie site",
+      href: "https://rjimeneztech.github.io/MovieFinder/",
+    },
+    {
+      src: Photo2,
+      text: "Weather Dashboard",
+      href: "https://blessingi.github.io/Weather-Dashboard/",
+    },
+    { src: Photo5, text: "Tech Jobs", href: "https://techjob2.herokuapp.com/" },
+    {
+      src: Photo4,
+      text: "Code Quizz",
+      href: "https://blessingi.github.io/codeQuiz/",
+    },
+    { src: Photo3, text: "Git it done", href: "https://blessingi.github.io/git-it-done/" },
   ];
 
   return (
-    <section className="my-5">
-      {imagesPool.map((imgSrc, index) => (
-        <img src={imgSrc.src} key={index} alt="Portfolio images" />
-      ))}
+    <section>
+      <h1 id="about">Portfolio</h1>
+      <br />
+      <h4>Click on Image to view website </h4>
+      <br />
+      <div className="flex-row">
+        {imagesPool.map((imgSrc, index) => (
+          <div>
+            <p>{imgSrc.text}</p>
+            <a href={imgSrc.href} target="blank">
+              <img
+                src={imgSrc.src}
+                key={index}
+                text={imgSrc.text}
+                alt="Portfolio images"
+                className="img-thumbnail mx-1"
+              />
+            </a>
+          </div>
+        ))}
+      </div>
     </section>
   );
 }

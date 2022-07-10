@@ -313,3 +313,8 @@ a {
 .fontawesome a{
   color: #fafafa;
 }
+
+.portpics {
+  display: flex;
+  justify-content: space-between;
+}
