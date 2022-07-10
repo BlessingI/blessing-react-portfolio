@@ -6,7 +6,7 @@ function Nav({ currentPage, handlePageChange }) {
         <a
           href="/"
         >
-          Blessing
+          Blessing I
         </a>
       </h2>
 
