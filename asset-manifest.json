@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/blessing-react-portfolio/static/css/main.962f5bda.css",
+    "main.js": "/blessing-react-portfolio/static/js/main.0d7688e3.js",
+    "static/js/787.ceeab0d8.chunk.js": "/blessing-react-portfolio/static/js/787.ceeab0d8.chunk.js",
+    "static/media/BlessingPassport.GIF": "/blessing-react-portfolio/static/media/BlessingPassport.246a62732a78492dcd89.GIF",
+    "static/media/bresume.doc": "/blessing-react-portfolio/static/media/bresume.f9a33a39e5391770829d.doc",
+    "static/media/0.jpg": "/blessing-react-portfolio/static/media/0.711fb3ff7f158ecfafb0.jpg",
+    "static/media/2.jpg": "/blessing-react-portfolio/static/media/2.c2840049d7881986b52b.jpg",
+    "static/media/1.jpg": "/blessing-react-portfolio/static/media/1.027d2d58737cacc22edb.jpg",
+    "static/media/5.jpg": "/blessing-react-portfolio/static/media/5.6c2d3bf3488dcabf2cf6.jpg",
+    "static/media/3.jpg": "/blessing-react-portfolio/static/media/3.38b4004c22d32328b4db.jpg",
+    "static/media/4.jpg": "/blessing-react-portfolio/static/media/4.d92bdaf8018552193b7d.jpg",
+    "index.html": "/blessing-react-portfolio/index.html",
+    "main.962f5bda.css.map": "/blessing-react-portfolio/static/css/main.962f5bda.css.map",
+    "main.0d7688e3.js.map": "/blessing-react-portfolio/static/js/main.0d7688e3.js.map",
+    "787.ceeab0d8.chunk.js.map": "/blessing-react-portfolio/static/js/787.ceeab0d8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.962f5bda.css",
+    "static/js/main.0d7688e3.js"
+  ]
+}
